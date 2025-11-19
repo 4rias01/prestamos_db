@@ -4,7 +4,7 @@
 
 INSERT INTO tuser (username, dob, create_at, update_at, active) VALUES
 (ROW('Juan','Pérez'), '1990-05-12', NOW(), NOW(), TRUE),
-(ROW('María','Gómez'), '1985-11-23', NOW(), NOW(), TRUE),
+(ROW('María','Lozano'), '1985-11-23', NOW(), NOW(), TRUE),
 (ROW('Carlos','Ramírez'), '1992-07-03', NOW(), NOW(), TRUE),
 (ROW('Ana','Torres'), '1998-02-17', NOW(), NOW(), TRUE),
 (ROW('Luis','Martínez'), '1980-09-29', NOW(), NOW(), TRUE),
@@ -20,7 +20,7 @@ INSERT INTO tuser (username, dob, create_at, update_at, active) VALUES
 
 INSERT INTO user_email (id_user, email) VALUES
 (1, 'juan.perez@example.com'),
-(2, 'maria.gomez@example.com'),
+(2, 'maria.lozano@example.com'),
 (3, 'carlos.ramirez@example.com'),
 (4, 'ana.torres@example.com'),
 (5, 'luis.martinez@example.com'),
